@@ -1,0 +1,420 @@
+/*General for all nav border*/
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.nav_first_line {
+    height: 60px;
+    background-color: #175493;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.border {
+    background-color: 2px solid transparent;
+}
+.border:hover {
+    border: 2px solid white;
+}
+
+
+/*box1 amazon.in*/
+.amazon_logo {
+    height: 50px;
+    width: 128px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+
+/*Box 2  address- deliver to assam*/
+.address_1st {
+    color: #cccccc;
+    font-size: 0.80rem;
+    margin: 0 23px;
+}
+.address_2nd {
+    font-size: 1rem;
+    margin: 0 4px;
+}
+.location_icon {
+    display: flex;
+    align-items: center;
+    margin: 0 7px;
+}
+
+
+/*Border 3 sAll slider + searchbox + search icon*/
+.nav_search {
+    display: flex;
+    background-color: wheat;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.nav_search:hover {
+    border: 3px solid wheat;
+}
+.search_all {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search_input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search_icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem; 
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;   
+}
+/*nav 4 for language*/
+.flag {
+    height: 21px;
+    width: 20px;
+    
+}
+.indianflag {
+    display: flex;
+}
+.select_bar {
+    size-adjust: 2px;
+    height: 20px;
+    width: 20px;
+    background-color: #175493;  
+    border: none; 
+}
+
+/*
+nav 5 for sign In*/
+span {
+    font-size: 0.7rem;
+
+}
+.nav_signin_second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*nav 6 Cart Icon*/
+.nav_cart i {
+    font-size: 30px;
+}
+.nav_cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* nav 2 bar for all menus and deals*/
+.nav_2 {
+    height:40px;
+    background-color: #3990D2;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav2_options p {
+    display: inline;
+    margin: 8px;
+}
+.nav2_options {
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+.nav2_options a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.nav2_options a:hover {
+    color: blue;
+}
+
+.nav2_deals {
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+.nav2_options select {
+    background-color: #3990d2;
+    border: none;    
+}
+.nav2_options select:hover {
+    border-color: blue;
+    border: 2px solid blue;
+}
+marquee {
+    color: white;
+    display: flex;
+    width: fit-content;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    background-color: #231651;
+    
+}
+
+/*body section 
+    background image*/
+
+    .background {
+        background-image: url(background_img1.jpg);
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    
+        
+    }
+    .background_message {
+        background-color: #7ad1e4;
+        color: white;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 0.85rem;
+        width: 95%;
+        margin-bottom: 25px;
+    }
+    
+    
+    
+    /*Content Section*/
+    .contents {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        background-color: rgb(246, 230, 200);
+        padding: 20px 0px 15px;
+    }
+    .con {
+        /*border: 2px solid black;*/
+        height: 400px;
+        width: 21.3%;
+        background-color: white;
+        padding: 10px 0px 15px;
+        margin: 10px;
+    }
+    .cimg{
+       height: 250px;  
+       width: 100%; 
+       background-size: cover;
+    }
+    
+    .box-content {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .box-content p {
+        margin-top: 25px;
+    }
+
+    
+
+    /*FOOTER*/
+    footer {
+        margin-top: 15px;     ;
+    }
+    .footer_bar1 {
+        background-color: #3990d2;
+        color: white;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.85rem;
+
+    }
+
+    .footer_bar2 {
+        background-color: #7ad1e4;
+        color: white;
+        height: 400px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .footer_bar2 a {
+        text-decoration: none;
+        color: white;
+        
+        
+    }
+    ul {
+        margin-top: 20px;
+    }
+    ul a {
+        display: block;
+        font-size: 0.85rem;
+        margin: 10px;
+        color: #dddddd;
+    }
+    ul a:hover {
+        text-decoration: underline;
+    }
+   .footer_last {
+    background-color: #175493;
+    color: white;
+    height: 40px;
+    
+   }
+   .lastline {
+    font-size: 0.8rem;
+    text-align: center;
+    justify-content: center;
+    margin: 1px;
+   }
+   .lastline a {
+    color: white;
+    text-decoration: none; 
+    margin-left: 5px;
+   }
+   .lastline a:hover {
+    text-decoration: underline;
+   }
+
+   .end {
+    font-size: 0.8rem;
+    text-align: center;
+   }
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+
+.images-collection {
+    position: relative;
+
+}
+.image-list {
+    display: flex;
+
+}
+.image-item {
+    min-width: 100%;
+
+}
+.image-item img {
+    height: 100%;
+    width: 100%;  
+}
+
+
+.image-button-slider {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.image-button-slider button {
+    border: 2px solid transparent;
+    padding: 100px 20px;
+    font-size: 50px;
+    font-weight: 300;
+    background-color: transparent;
+    color: black;
+}
+.image-button-slider button:focus {
+    border-color: black;
+    box-shadow: -2px -2px 2px white, 2px 2px 2px white;
+}**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

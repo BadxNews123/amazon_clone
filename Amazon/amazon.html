@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="amazon.css">
+</head>
+<body>
+    <header>
+        <p class="mar"> <marquee behavior="slide" loop="1" direction="left">Welcome to My Project</marquee>
+            <marquee behavior="slide" loop="1" direction="right">_Amazon Clone</marquee></p>
+        <p class="mar"> <marquee behavior="slide" loop="1" direction="left">Created by</marquee>
+                <marquee behavior="slide" loop="1" direction="right">_BadxNews</marquee></p>
+        
+        <!--!st line navigation bar includes all the amazon.in location, search menu upto shopping cart-->
+<!--For 1st nav line general-->        
+        <div class="nav_first_line">
+            
+            
+<!--for 1st nav 1st box amazon.in-->
+            <div class="amazon_logo border">
+                <div class="logo"></div>
+                <p>.in</p>
+            </div>
+
+
+<!--for address nav 1st box 2 deliver to Assam-->
+            <div class="nav_location border">
+                <p class="address_1st">Deliver to</p>
+                <div class="location_icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="address_2nd">Select your address</p>
+                </div>
+            </div>
+
+
+<!--for all slider in 3rd box -->
+            <div class="nav_search">
+                <select class="search_all">
+                    <option >All</option>
+                    <option value=""><a href="">All categories</a></option>
+                    <option value=""><a href="">Alexa Skills</a></option>
+                    <option value=""><a href="">Amazon devices</a></option>
+                    <option value=""><a href="">Amazon pharmacy</a></option>
+                    <option value=""><a href="">Appliances</a></option>
+                    <option value=""><a href="">Apps and games</a></option>
+                    <option value=""><a href="">Audible Audiobooks</a></option>
+                    <option value=""><a href="">Babby</a></option>
+                    <option value=""><a href="">Beauty</a></option>
+                    <option value=""><a href="">Books</a></option>
+                    <option value=""><a href="">Clothing &Accessories</a></option>
+                    <option value=""><a href="">Collectibles</a></option>
+                    <option value=""><a href="">Computer & Accessories</a></option>
+                    <option value=""><a href="">Electronics</a></option>
+                    <option value=""><a href="">Furnnitures</a></option>
+                    <option value=""><a href="">Garden & outdoors</a></option>
+                    <option value=""><a href="">Gift cards</a></option>
+
+                </select>
+                <input class="search_input" type="text" placeholder="Search Amazon.in" >
+                <div class="search_icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+<!--4th div for language selection-->
+            <div class="language border">
+                <div class="indianflag">
+                   <img src="language.png" alt="" class="flag"><p>EN</p>
+                   <select class="select_bar" id="">
+                    <option value="">english</option>
+                    <option value="">Hindi</option>
+                    <option value="">French</option>
+                   </select>      
+                </div>               
+            </div>
+
+<!--5th div for signin-hello signin-->            
+         <div class="nav_signin border">
+            <p><span>Hello, sign in</span></p>
+            <p class="nav_signin_second">Accounts & Lists</p>
+        </div>
+        <div class="nav_signin border" >
+            <p><span>Returns</span></p>
+            <p class="nav_signin_second">& Orders</p>
+        </div>
+        <div class="nav_cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+        </div>
+    </div>
+
+
+<!--Second line includes all menu....-->
+    <div class="nav_2 ">
+        <div class="allmenu border">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="nav2_options">
+            <p><a href="https://www.amazon.in/minitv?ref_=nav_avod_desktop_topnav">Amazon miniTV</a></p>
+            <p><a href="https://www.amazon.in/b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3">Sell</a></p>
+            <p><a href="https://www.amazon.in/gp/bestsellers/?ref_=nav_cs_bestsellers">Best Sellers</a></p>
+            <p><a href="https://www.amazon.in/deals?ref_=nav_cs_gb">Today's Deals</a></p>
+            <p><a href="https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles">Mobiles</a></p>
+            <p><a href="https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics">Electronics</a></p>
+            <p><a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help">Customer Service</a></p>
+            <p><a class="nav2_prime" href="">Prime</a>
+            <select name="" id="Prime"></select></p>
+
+            <p><a href="https://www.amazon.in/gp/new-releases/?ref_=nav_cs_newreleases">New Releases</a></p>
+            <p><a href="https://www.amazon.in/gcx/Gifts-for-Everyone/gfhz/?ref_=nav_cs_giftfinder">Gift Ideas</a></p>
+            <p><a href="https://www.amazon.in/Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home">Home & Kitchen</a></p>
+        </div>
+        <div class="nav2_deals border">
+            <p>New Launches from Mobiles, Electronics & more|Shop</p>
+        </div>
+    </div>
+    
+   
+  </header>
+
+  <div class="background">
+    <div class="background_message">
+        <P>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a style="text-decoration: none;" href="">Click here to go to amazon.in</a></P>
+    </div>
+  </div>
+  <div class="contents">
+    <div class="con">
+        <div class="box-content">
+            <h2>Starting Rs 99 | All your home improvement needs</h2>
+            <div class="cimg" style="background-image: url(box_image_1.png);"></div><p><a  style="text-decoration: none;" href="https://www.amazon.in/b/?_encoding=UTF8&node=4286640031&pd_rd_w=3NE4d&content-id=amzn1.sym.3dc31d8d-68f8-44fb-9e5d-4f6c09b0fca9&pf_rd_p=3dc31d8d-68f8-44fb-9e5d-4f6c09b0fca9&pf_rd_r=PED9VG6JFWGCG40CQ9M8&pd_rd_wg=smX62&pd_rd_r=6eb5f65e-8caa-4abb-8e5d-1001032d6c87&ref_=pd_gw_unk">Explore all</a></p>
+        </div>   
+    </div>
+    <div class="con">
+        <div class="box-content">
+            <h2>Revamp your home in style</h2>
+            <div class="cimg" style="background-image: url(box_image_2.png);"></div>
+            <p><a style="text-decoration: none;" href="https://www.amazon.in/b/?_encoding=UTF8&node=12414705031&pd_rd_w=ULos6&content-id=amzn1.sym.de8422de-4244-4744-acb3-40fa79669ab3&pf_rd_p=de8422de-4244-4744-acb3-40fa79669ab3&pf_rd_r=PED9VG6JFWGCG40CQ9M8&pd_rd_wg=smX62&pd_rd_r=6eb5f65e-8caa-4abb-8e5d-1001032d6c87&ref_=pd_gw_unk">Explore all</a></p>
+        </div>   
+    </div><div class="con">
+        <div class="box-content">
+            <h2>Up to 60% off | Styles for men</h2>
+            <div class="cimg" style="background-image: url(box_image_3.png);"></div><p><a style="text-decoration: none;" href="https://www.amazon.in/b/ref=sl_gw_feb20/?_encoding=UTF8&node=6648217031&pd_rd_w=p0dG8&content-id=amzn1.sym.f34116c1-3bbf-4330-a06d-35e88a4422a0&pf_rd_p=f34116c1-3bbf-4330-a06d-35e88a4422a0&pf_rd_r=PED9VG6JFWGCG40CQ9M8&pd_rd_wg=smX62&pd_rd_r=6eb5f65e-8caa-4abb-8e5d-1001032d6c87&ref_=pd_gw_unk">End of season sale</a></p>
+        </div>   
+    </div><div class="con">
+        <div class="box-content">
+            <h2>Starting Rs139 | Amazon brands & more</h2>
+            <div class="con_1img cimg" style="background-image: url(box_image_4.png);"></div><p><a style="text-decoration: none;" href="https://www.amazon.in/s?bbn=84514735031&rh=n%3A84514735031%2Cp_85%3A10440599031&_encoding=UTF8&content-id=amzn1.sym.1c82c58f-ba94-4c7f-addd-8abb3f123860&pd_rd_r=6eb5f65e-8caa-4abb-8e5d-1001032d6c87&pd_rd_w=gEaLH&pd_rd_wg=smX62&pf_rd_p=1c82c58f-ba94-4c7f-addd-8abb3f123860&pf_rd_r=PED9VG6JFWGCG40CQ9M8&ref=pd_gw_unk">See more</a></p>
+        </div>   
+    </div>
+    <div class="con">
+        <div class="box-content">
+            <h2>Appliances for your home | up to 55% off</h2>
+            <div class="cimg" style="background-image: url(box_image_5.png);"></div><p><a style="text-decoration: none;" href="https://www.amazon.in/b/?_encoding=UTF8&node=1389396031&pd_rd_w=CCCHN&content-id=amzn1.sym.3a1e795b-5306-4456-83dc-0d9fa96e380b&pf_rd_p=3a1e795b-5306-4456-83dc-0d9fa96e380b&pf_rd_r=PED9VG6JFWGCG40CQ9M8&pd_rd_wg=smX62&pd_rd_r=6eb5f65e-8caa-4abb-8e5d-1001032d6c87&ref_=pd_gw_unk">See more</a></p>
+        </div>   
+    </div>
+    <div class="con">
+        <div class="box-content">
+            <h2>Get the perfect screen size | TVs Starting Rs6,999</h2>
+            <div class="cimg" style="background-image: url(box_image_6.png);"></div><p><a style="text-decoration: none;" href="https://www.amazon.in/b/?_encoding=UTF8&node=4286640031&pd_rd_w=3NE4d&content-id=amzn1.sym.3dc31d8d-68f8-44fb-9e5d-4f6c09b0fca9&pf_rd_p=3dc31d8d-68f8-44fb-9e5d-4f6c09b0fca9&pf_rd_r=PED9VG6JFWGCG40CQ9M8&pd_rd_wg=smX62&pd_rd_r=6eb5f65e-8caa-4abb-8e5d-1001032d6c87&ref_=pd_gw_unk">See all offers</a></p>
+        </div>   
+    </div>
+    <div class="con">
+        <div class="box-content">
+            <h2>Up to 60% off | Styles for women</h2>
+            <div class="cimg" style="background-image: url(box_image_7.png);"></div><p><a style="text-decoration: none;" href="https://www.amazon.in/b?node=86359322031&pd_rd_w=Jw3VO&content-id=amzn1.sym.11fbe531-5453-4713-b8d1-a054411cdfc6&pf_rd_p=11fbe531-5453-4713-b8d1-a054411cdfc6&pf_rd_r=PED9VG6JFWGCG40CQ9M8&pd_rd_wg=dIIZh&pd_rd_r=096b4a81-0ec4-41ed-a0c5-2a9c146638fa">End of season sale</a></p>
+        </div>   
+    </div>
+    <div class="con">
+        <div class="box-content">
+            <h2>Up to 60% off | Professional tools, testing & more</h2>
+            <div class="cimg" style="background-image: url(box_image_8.png);"></div><p><a style="text-decoration: none;" href="https://www.amazon.in/s?bbn=5925789031&rh=n%3A5925789031%2Cp_n_format_browse-bin%3A19560801031&_encoding=UTF8&content-id=amzn1.sym.c4db8203-498f-4097-a362-408b9eff0fd2&pd_rd_r=6eb5f65e-8caa-4abb-8e5d-1001032d6c87&pd_rd_w=2MNJP&pd_rd_wg=smX62&pf_rd_p=c4db8203-498f-4097-a362-408b9eff0fd2&pf_rd_r=PED9VG6JFWGCG40CQ9M8&ref=pd_gw_unk">See more</a></p>
+        </div>   
+    </div>
+
+  </div>
+<footer>
+    <div class="footer_bar1">
+        Back to top
+    </div>
+    <div class="footer_bar2">
+        <ul>
+            <p>
+                Get to know us
+            </p>
+            <a href="https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer">About us</a>
+            <a href="https://amazon.jobs/en/">Careers</a>
+            <a href="https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer">Press Releases</a>
+            <a href="https://www.amazon.science/">Amazon Science</a>
+
+        </ul>
+        <ul>
+            <p>Connect with us</p>
+            <a href="https://www.facebook.com/AmazonIN">Facebook</a>
+            <a href="https://twitter.com/AmazonIN">Twitter</a>
+            <a href="https://www.instagram.com/amazondotin/">Instagram</a>
+        </ul>
+        <ul>
+            <p>Make Money with us</p>
+            <a href="https://www.amazon.in/b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C">Sell on Amazon</a>
+            <a href="https://www.amazon.in/b/?node=16192220031&ref_=map_1_b2b_GW_FT">Sell on Amazon Acccelerator</a>
+            <a href="https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT">Protect and Build your Brand</a>
+            <a href="https://sell.amazon.in/grow-your-business/amazon-global-selling?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1">Amazon Global Selling</a>
+            <a href="https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc">Become an Affiliate</a>
+            <a href="https://sell.amazon.in/shipping-and-fulfillment/fulfillment-by-amazon?ref_=asin_soa_rd&ld=AWRGINFBAfooter">Fulfillment by Amazon</a>
+            <a href="https://advertising.amazon.com/en-gb?ref=Amz.in">Advertise your products</a>
+            <a href="https://www.amazonpay.in/merchant">Amazon pay on merchants</a>
+        </ul>
+        <ul>
+            <p>Let Us Help You</p>
+            <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&ref_=footer_covid">COVID-19 and Amazon</a>
+            <a href="https://www.amazon.in/gp/css/homepage.html?ref_=footer_ya">Your Account</a>
+            <a href="https://www.amazon.in/ap/signin?openid.pape.max_auth_age=3600&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fspr%2Freturns%2Fhomepage%2Fhomepage.html%3Fref_%3Dfooter_hy_f_4&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_psr_desktop_in&openid.mode=checkid_setup&language=en_IN&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Returns Centre</a>
+            <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc">100% Purchase Protection</a>
+            <a href="https://www.amazon.in/gp/browse.html?node=6967393031&ref_=footer_mobapp">Amazon App Download</a>
+            <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he">Help</a>
+        </ul>
+    </div>
+    <div class="footer_last">
+        <div class="lastline">
+            <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou">Conditions for Use & sell</a>
+            <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy">Privacy notice</a>
+            <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba">Interest-based Ads</a>
+        </div>
+        <div class="end">
+            © 1996-2024, Amazon.com, Inc. or its affiliates
+        </div>
+    </div>
+   
+
+</footer>
+
+</body>
+</html>
